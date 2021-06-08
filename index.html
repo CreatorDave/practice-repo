@@ -11,49 +11,299 @@
 <body>
     <header>
     </header>
-    <div class="card" style="width: 18rem; background-color: aliceblue;">
-        <form>
+    <div class="card first" style="width: 18rem; background-color: aliceblue;">
+        
         <div class="card-body">
-          <h5 class="card-title">Task Planner</h5>
+          <h5 class="card-title title">Task Planner</h5>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><form>
+          <li class="list-group-item">
+            <form>
             <div class="row">
               <div class="col">
                 <input type="text" class="form-control" placeholder="Name" required>
               </div> 
-            </form>
+            
             </li>
-          <li class="list-group-item">//INPUT DATE PICKER HERE//</li>
-          <li class="list-group-item"><div class="form-group shadow-textarea">
+          <li class="list-group-item">
+            <form action="/action_page.php">
+              <label class="datepicker" for="date"></label>
+              <input type="date" id="date" name="date">
+  </li>
+          <li class="list-group-item">
+            <div class="form-group shadow-textarea">
             <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Task Description" required></textarea>
           </div>
         </li>
         <li class="list-group-item">
-            <form>
+            
                 <div class="row">
                   <div class="col">
                     <input type="text" class="form-control" placeholder="Assigned to:" required>
                   </div> 
-                </form>
+                
         </li>
         <li class="list-group-item">
-            <form>
+            
                 <div class="row">
                   <div class="col">
                     <input type="text" class="form-control" placeholder="Priority Level:" required>
                   </div> 
-                </form>
+                
         </li>
         <li class="list-group-item"><div class="form-group shadow-textarea">
             <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Additional Comments:" required></textarea>
           </div>
         </li>
+        
         </ul>
-        <div class="card-body">
+      </form>
+        <div class="card-body body">
             <button class="btn btn-primary" type="submit">Submit</button>
         </div>
-</form>
       </div>
+<! new task cards -->
+
+<div class="row">
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body bodytask">
+        <h5 class="card-title task1">Tasks</h5>
+        <form>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Assigned to:" required>
+                </div> 
+              
+              </li>
+              <li class="list-group-item">
+              
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Task" required>
+                  </div> 
+                
+        </li>
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Due:" required>
+                    </div> 
+                  
+          </li>
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Status:" required>
+                    </div> 
+                  
+          </li>
+      
+          </ul>
+      
+        <a href="#" class="btn btn-success">Mark as Done</a>
+        <a href="#" class="btn btn-secondary">Delete</a>
+      </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body bodytask">
+        <h5 class="card-title task1">Tasks</h5>
+        <form>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Assigned to:" required>
+                </div> 
+              
+              </li>
+              <li class="list-group-item">
+              
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Task:" required>
+                  </div> 
+                
+        </li>
+            
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Due:" required>
+                    </div> 
+                  
+          </li>
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Status:" required>
+                    </div> 
+                  
+          </li>
+      
+          </ul>
+      
+        <a href="#" class="btn btn-success">Mark as Done</a>
+        <a href="#" class="btn btn-secondary">Delete</a>
+      </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body bodytask">
+        <h5 class="card-title task1">Tasks</h5>
+        <form>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Assigned to:" required>
+                </div> 
+              
+              </li>
+              <li class="list-group-item">
+              
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Task:" required>
+                  </div> 
+                
+        </li>
+            
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Due:" required>
+                    </div> 
+                  
+          </li>
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Status:" required>
+                    </div> 
+                  
+          </li>
+      
+          </ul>
+      
+        <a href="#" class="btn btn-success">Mark as Done</a>
+        <a href="#" class="btn btn-secondary">Delete</a>
+      </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body bodytask">
+        <h5 class="card-title task1">Tasks</h5>
+        <form>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Assigned to:" required>
+                </div> 
+              
+              </li>
+            
+              <li class="list-group-item">
+              
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Task:" required>
+                  </div> 
+                
+        </li>
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Due:" required>
+                    </div> 
+                  
+          </li>
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Status:" required>
+                    </div> 
+                  
+          </li>
+      
+          </ul>
+      
+        <a href="#" class="btn btn-success">Mark as Done</a>
+        <a href="#" class="btn btn-secondary">Delete</a>
+      </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body bodytask">
+        <h5 class="card-title task1">Tasks</h5>
+        <form>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Assigned to:" required>
+                </div> 
+              
+              </li>
+              <li class="list-group-item">
+              
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Task:" required>
+                  </div> 
+                
+        </li>
+            
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Due:" required>
+                    </div> 
+                  
+          </li>
+          <li class="list-group-item">
+              
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Status:" required>
+                    </div> 
+                  
+          </li>
+      
+          </ul>
+      
+        <a href="#" class="btn btn-success">Mark as Done</a>
+        <a href="#" class="btn btn-secondary">Delete</a>
+      </form>
+      </div>
+    </div>
+  </div>
+   
 </body>
 </html>
