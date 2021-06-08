@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=“en”>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset=“UTF-8">
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
-    
+    <header>
+    </header>
+    <div class="card" style="width: 18rem; background-color: aliceblue;">
+        <form>
+        <div class="card-body">
+          <h5 class="card-title">Task Planner</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Name" required>
+              </div> 
+            </form>
+            </li>
+          <li class="list-group-item">//INPUT DATE PICKER HERE//</li>
+          <li class="list-group-item"><div class="form-group shadow-textarea">
+            <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Task Description" required></textarea>
+          </div>
+        </li>
+        <li class="list-group-item">
+            <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Assigned to:" required>
+                  </div> 
+                </form>
+        </li>
+        <li class="list-group-item">
+            <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Priority Level:" required>
+                  </div> 
+                </form>
+        </li>
+        <li class="list-group-item"><div class="form-group shadow-textarea">
+            <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Additional Comments:" required></textarea>
+          </div>
+        </li>
+        </ul>
+        <div class="card-body">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+</form>
+      </div>
 </body>
 </html>
