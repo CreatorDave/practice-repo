@@ -1,21 +1,31 @@
-.card {
+.first {
     margin: 0 auto;
     float: none;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
-.card-title {
-text-align: center;
-color: rgb(58, 173, 245);
-background-color: rgba(43, 158, 235, 0.199);
-border-style: solid;
-border-width: thick;
+.title {
+    text-align: center;
+    color: rgb(58, 173, 245);
+    background-color: rgba(43, 158, 235, 0.199);
+    border-style: solid;
+    border-width: thick;
 }
 .list-group {
-background-color: aliceblue;
+    background-color: aliceblue;
 }
-.card-body {
-background-color: aliceblue;
+.body {
+    background-color: aliceblue;
 }
-.card-body {
-justify-content: center;
+.datepicker {
+    padding-left: 40px;
 }
+.task1 {
+    text-align: center;
+}
+.bodytask {
+    border-style: dashed;
+    border-width: 0.15em;
+    border-color: green;
+    background-color: rgba(6, 204, 6, 0.253);
+}
+  
