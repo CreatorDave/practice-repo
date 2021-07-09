@@ -62,6 +62,4 @@ tasksList.addEventListener('click', (event) => {
         taskManager.render();
     }
 
-}
-
 });
