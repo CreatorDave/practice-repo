@@ -45,16 +45,34 @@ class TaskManager {
     }
 
     getTaskById(taskId) {
-        let foundTask;
+        let foundTask; {
 
-        for (let i = 0; i < this.tasks.length; i++); {
-            const task = this.tasks[i];
-        }
-        if (task.id === taskId) {
-            foundTask = task;
+            for (let i = 0; i < this.tasks.length; i++); {
+                const task = this.tasks[i];
+            }
+            if (task.id === taskId) {
+                foundTask = task;
+            }
         }
     }
-return foundTask;
-};
 
 
+    // In js/taskManager.js, in the TaskManager class, create a save method. This method doesn't require any parameters. DONE
+
+    //In the save method, create a JSON string of the tasks using JSON.stringify() and store it to a new variable, tasksJson. DONE
+
+    //Store the JSON string in localStorage under the key tasks using localStorage.setItem(). DONE?
+
+    //Convert the this.currentId to a string and store it in a new variable, currentId. DONE?
+
+    //Store the currentId variable in localStorage under the key currentId using localStorage.setItem(). DONE?
+
+    //In js/index.js, after both adding a new task and updating a task's status to done, call taskManager.save() to save the tasks to localSorage. WHAT?
+
+    save() {
+        let tasksJson = JSON.stringify(tasks);
+        localStorage.setItem(tasksJson);
+        let currentId = JSON.stringify(this.currentId);
+        localStorage.setItem(currentId);
+    }
+}
