@@ -1,36 +1,35 @@
-.first {
+* {
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
+  font-family: "Otomanopee One", sans-serif;
 }
 
-.title {
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  border: dashed;
+  border-width: thick;
   text-align: center;
   color: rgb(58, 173, 245);
   background-color: rgba(43, 158, 235, 0.199);
-  border-style: solid;
-  border-width: thick;
 }
 
-.list-group {
-  background-color: aliceblue;
-}
-
-.body {
-  background-color: aliceblue;
-}
-
-.datepicker {
-  padding-left: 40px;
-}
-
-.task1 {
+.heading2 {
   text-align: center;
+  color: green;
+  margin-top: auto;
+  font-style: italic;
 }
 
-.bodytask {
-  border-style: dashed;
-  border-width: 0.15em;
-  border-color: green;
-  background-color: rgba(6, 204, 6, 0.253);
+.heading3 {
+  color: rgba(16, 141, 64, 0.432);
+}
+
+#newTaskForm {
+  color: rgb(9, 71, 109);
+  text-style: italic;
 }
